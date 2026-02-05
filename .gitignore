@@ -1,0 +1,28 @@
+# ESP-IDF build output
+build/
+
+# Managed components (regenerate with idf.py)
+managed_components/
+
+# Local SDK config
+sdkconfig
+sdkconfig.old
+sdkconfig.ci.*
+
+# Python/IDF artifacts
+__pycache__/
+*.pyc
+
+# CMake/Ninja artifacts
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+*.ninja
+.ninja_*
+compile_commands.json
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

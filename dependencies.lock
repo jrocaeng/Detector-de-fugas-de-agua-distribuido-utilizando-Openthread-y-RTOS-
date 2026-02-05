@@ -1,0 +1,83 @@
+dependencies:
+  espressif/esp_jpeg:
+    component_hash: defb83669293cbf86d0fa86b475ba5517aceed04ed70db435388c151ab37b5d7
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.3.1
+  espressif/esp_ot_cli_extension:
+    component_hash: 0720bca3c3d0b3ea33ee9c9830d51c4c25312cb2cf32408e681e12cd4539cfb1
+    dependencies:
+    - name: espressif/iperf
+      registry_url: https://components.espressif.com
+      require: private
+      version: ^0.1.0
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.3.5
+  espressif/iperf:
+    component_hash: f4c2beaae50478a626995130d2611c628b7a568cd0799022758c05658928410c
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.3'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    version: 0.1.4
+  espressif/led_strip:
+    component_hash: 28c6509a727ef74925b372ed404772aeedf11cce10b78c3f69b3c66799095e2d
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.5.5
+  espressif/mdns:
+    component_hash: 29e47564b1a7ee778135e17fbbf2a2773f71c97ebabfe626c8eda7c958a7ad16
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.9.1
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+  ot_led:
+    dependencies:
+    - name: espressif/led_strip
+      version: ^2.4.1
+    source:
+      path: C:\Users\HP\esp\v5.5.1\esp-idf\examples\openthread\ot_common_components\ot_led
+      type: local
+    version: '*'
+  protocol_examples_common:
+    dependencies: []
+    source:
+      path: C:\Users\HP\esp\v5.5.1\esp-idf\examples\common_components\protocol_examples_common
+      type: local
+    version: '*'
+direct_dependencies:
+- espressif/esp_jpeg
+- espressif/esp_ot_cli_extension
+- espressif/mdns
+- idf
+- ot_led
+- protocol_examples_common
+manifest_hash: 69c8142ccfc545529508cad9eb2eaca6b400900dba12edf74c3b07f4325ae329
+target: esp32s3
+version: 2.0.0
