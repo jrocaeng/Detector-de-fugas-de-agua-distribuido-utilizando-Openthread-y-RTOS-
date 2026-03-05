@@ -1,5 +1,5 @@
 # Detector-de-fugas-de-agua-distribuido-utilizando-Openthread-y-RTOS-
-Este repositorio contiene el código de un prototipo domótico de detección de fugas de agua, desarrollado como Trabajo Final de Grado, basado en una arquitectura distribuida con dispositivos ESP32 y el protocolo Thread. Este repositorio está inacabado ya que faltan algunas mejoras en el código y documentación.
+Este repositorio contiene el código de un prototipo domótico de detección de fugas de agua, desarrollado como Trabajo Final de Grado, basado en una arquitectura distribuida con dispositivos ESP32 con uso de FreeRTOS y protocolo Thread. Quedan por añadir pequeñas mejoras y documentación
 
 Resumen:
 
